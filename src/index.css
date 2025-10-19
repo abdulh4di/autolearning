@@ -1046,7 +1046,7 @@ textarea::placeholder {
 }
 
 /* Large Mobile Screens */
-@media (max-width: 425px) {
+@media (max-width: 450px) {
   .topbar__contact-detail__no,
   .topbar__contact-detail__email,
   .topbar__contact-detail__icon,
