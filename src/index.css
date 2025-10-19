@@ -588,9 +588,6 @@ body {
   background-color: var(--btnaccent);
 }
 
-.price-card__btn1 {
-  animation: pulse1 2s infinite;
-}
 @keyframes pulse1 {
   0%,
   100% {
