@@ -1135,12 +1135,16 @@ textarea::placeholder {
     text-align: center;
   }
 
+  .coverage__container{
+    padding: 50px 0;
+  }
+
   .coverage__info-title {
     font-size: 18px;
   }
 
   .coverage__info-para {
-    font-size: 10px;
+    font-size: 8px;
     width: 100%;
   }
 
@@ -1163,6 +1167,10 @@ textarea::placeholder {
 
   .price-card__subheading {
     font-size: 14px;
+  }
+
+  .price-card__btn{
+    font-size: 12px;
   }
 
   .contact__top__para {
