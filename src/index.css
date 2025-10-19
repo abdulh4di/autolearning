@@ -976,7 +976,8 @@ textarea::placeholder {
   }
 
   .header__btn,
-  .benefits__bottom-btn {
+  .benefits__bottom-btn,
+  .contact-form__btn {
     font-size: 12px;
     padding: 8px 16px;
   }
@@ -1043,12 +1044,16 @@ textarea::placeholder {
 }
 
 /* Large Mobile Screens */
-@media (max-width: 450px) {
+@media (max-width: 425px) {
   .topbar__contact-detail__no,
   .topbar__contact-detail__email,
   .topbar__contact-detail__icon,
   .topbar__socials-icon {
     font-size: 14px;
+  }
+
+  .topbar__info {
+    justify-content: center;
   }
 
   .nav__logo__wrapper {
@@ -1072,7 +1077,8 @@ textarea::placeholder {
     gap: 10px;
   }
 
-  .header__btn {
+  .header__btn,
+  .contact-form__btn {
     font-size: 10px;
   }
 
@@ -1122,6 +1128,10 @@ textarea::placeholder {
     font-size: 25px;
   }
 
+  .benefits__title br {
+    display: none;
+  }
+
   .benefits__subheading {
     font-size: 10px;
   }
@@ -1135,12 +1145,13 @@ textarea::placeholder {
     text-align: center;
   }
 
-  .coverage__container{
+  .coverage__container {
     padding: 50px 0;
   }
 
   .coverage__info-title {
-    font-size: 18px;
+    font-size: 14px;
+    text-align: center;
   }
 
   .coverage__info-para {
@@ -1169,7 +1180,7 @@ textarea::placeholder {
     font-size: 14px;
   }
 
-  .price-card__btn{
+  .price-card__btn {
     font-size: 12px;
   }
 
@@ -1212,11 +1223,82 @@ textarea::placeholder {
     display: flex;
   }
 
-  .footer__container{
+  .Toastify__toast {
+    font-size: 14px;
+    justify-content: center !important;
+    width: 100% !important;
+  }
+
+  .footer__container {
     padding: 30px 0;
   }
 }
 
 /* Medium Mobile Screens */
-@media (max-width: 400px) {
+@media (max-width: 375px) {
+  .header__title {
+    font-size: 12px;
+  }
+
+  .header__para,
+  .about__para,
+  .about__highlight,
+  .benefits__block__para {
+    font-size: 8px;
+  }
+
+  .about__container {
+    padding: 50px 0;
+  }
+
+  .banner__content__icon {
+    font-size: 16px;
+  }
+
+  .banner__content__no,
+  .banner__content__email {
+    font-size: 12px;
+  }
+
+  .benefits__row {
+    gap: 30px;
+  }
+
+  .benefits__title {
+    font-size: 12px;
+  }
+
+  .benefits__subheading br {
+    display: none;
+  }
+  .price-card1-best {
+    font-size: 12px;
+  }
+
+  .price-card__title {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .price-card__subheading {
+    font-size: 12px;
+  }
+
+  .price-card__para {
+    font-size: 12px;
+  }
+
+  .price-card__btn {
+    font-size: 10px;
+  }
+
+  .input__box-field,
+  .input__box__message {
+    width: 80%;
+    font-size: 12px;
+  }
+
+  .footer__details {
+    font-size: 10px;
+  }
 }

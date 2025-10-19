@@ -22,9 +22,11 @@ const Contact = () => {
     if (data.success) {
       e.target.reset();
       toast.success("Form submitted successfully!", {
+          autoClose: false, // stays on screen until manually closed
+
         style: {
           backgroundColour: "rgba(0, 0, 0, 0.987)",
-          boxShadow: "0 2px 4px 2px rgba(236, 229, 229, 0.333)",
+          boxShadow: "0 2px 4px 2px rgba(236, 229, 229, 0.2)",
           color: "#fff",
           borderRadius: "4px",
         },
