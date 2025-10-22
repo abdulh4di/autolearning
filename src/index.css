@@ -1261,7 +1261,7 @@ textarea::placeholder {
   .price-card__btn {
     font-size: 16px;
     text-align: center;
-    padding: 10px;
+    padding: 10px 7px;
   }
 
   /* Contact */
@@ -1331,3 +1331,13 @@ textarea::placeholder {
   }
 }
 
+@media (max-width: 380px) {
+  .price-card__btn {
+    padding: 2px 14px;
+  }
+
+  .input__box-field,
+  .input__box__message {
+    width: 80%;
+  }
+}

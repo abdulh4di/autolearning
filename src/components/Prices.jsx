@@ -12,7 +12,7 @@ const Prices = () => {
             <p className="price-card__para">
               Save time and money with our convenient block booking
             </p>
-            <a href="tel:07943227718" className="price-card__btn1">
+            <a href="tel:07943227718" className="price-card__btn">
               Get started now
             </a>
           </div>
