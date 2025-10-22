@@ -1,5 +1,5 @@
 import { faClock, faSquareCheck } from "@fortawesome/free-regular-svg-icons";
-import { faSterlingSign } from "@fortawesome/free-solid-svg-icons";
+import { faHandshakeAngle, faSterlingSign } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Benefits = () => {
@@ -14,7 +14,7 @@ const Benefits = () => {
               </h1>
               <h2 className="benefits__subheading">
                 We deliver comprehensive trading that goes beyond basic driving techniques. <br />
-                Our approach ensures you can become a safe and skilled drover
+                Our approach ensures you can become a safe and skilled driver
               </h2>
             </div>
             <div className="benefits__bottom">
@@ -28,11 +28,11 @@ const Benefits = () => {
                   </div>
                 </div>
                 <div className="benefits__block">
-                  <FontAwesomeIcon icon={faClock} className="benefits__block-icon" />
-                  <h2 className="benefits__block-title">Flexible Schedules</h2>
+                  <FontAwesomeIcon icon={faHandshakeAngle} className="benefits__block-icon" />
+                  <h2 className="benefits__block-title">Reliable Lessons</h2>
                   <div className="benefits__block__para">
-                    Enjoy flexible scheduling that works around your availability — we make it
-                    simple to fit your sessions into your busy routine.
+                    Count on consistent, punctual driving lessons you can trust. We ensure every
+                    session starts on time and delivers the dependable training experience.
                   </div>
                 </div>
                 <div className="benefits__block">
@@ -45,7 +45,7 @@ const Benefits = () => {
                 </div>
               </div>
               <span className="benefits__bottom-btn__wrapper">
-                <a href="tel:07943227718"  className="benefits__bottom-btn">
+                <a href="tel:07943227718" className="benefits__bottom-btn">
                   Get in touch now
                 </a>
               </span>

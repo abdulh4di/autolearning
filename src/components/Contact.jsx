@@ -139,10 +139,9 @@ const Contact = () => {
                       <FontAwesomeIcon icon={faFacebook} className="contact-top-social-icon" />
                     </a>
                     <a
-                      href="https://www.facebook.com/people/Auto-Learn-School-of-Motoring/61581538496415/"
+                      href="https://www.instagram.com/autolearn_ncl/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="contact-top-social"
                     >
                       <FontAwesomeIcon icon={faInstagram} className="contact-top-social-icon" />
                     </a>

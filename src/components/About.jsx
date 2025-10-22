@@ -11,7 +11,7 @@ const About = () => {
             <p className="about__para">
               Auto Learn School of Motoring is run by a fully qualified{" "}
               <span className="about__para__span">Approved Driving Instructor (ADI)</span>, offering
-              automatic driving lessons across Newcastle and Gateshead. We provide calm, structured,
+              automatic driving lessons across Newcastle. We provide calm, structured,
               and confidence-building tuition to help learners drive safely and pass with
               confidence.
             </p>
