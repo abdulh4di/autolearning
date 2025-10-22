@@ -10,7 +10,6 @@ const Contact = () => {
     e.preventDefault();
     const form = e.target;
     const formData = new FormData(form);
-    formData.append("access_key", import.meta.env.VITE_WEB3FORM_KEY);
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -48,6 +47,11 @@ const Contact = () => {
           <div className="contact__bottom">
             <div className="contact__form">
               <form onSubmit={onSubmit}>
+                  <input
+                  type="hidden"
+                  name="access_key"
+                  value="dd64004b-7db6-42ca-88c2-0a195b633651"
+                />
                 <div className="contact__form-input">
                   <div className="input__box">
                     <label>Name</label>
