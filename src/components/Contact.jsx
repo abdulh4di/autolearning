@@ -7,7 +7,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   const onSubmit = async (e) => {
-    event.preventDefault();
+    e.preventDefault();
     const form = e.target;
     const formData = new FormData(form);
     formData.append("access_key", import.meta.env.VITE_WEB3FORM_KEY);
