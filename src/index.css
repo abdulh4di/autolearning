@@ -269,17 +269,6 @@ body {
   transition: all 0.3s ease;
   align-self: center;
   cursor: pointer;
-  animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-  0%,
-  100% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
 }
 
 .header__btn:hover {
@@ -1045,6 +1034,7 @@ textarea::placeholder {
 
 /* Large Mobile Screens */
 @media (max-width: 500px) {
+  /* Topbar */
   .topbar__contact-detail__no,
   .topbar__contact-detail__email,
   .topbar__contact-detail__icon {
@@ -1059,12 +1049,23 @@ textarea::placeholder {
     justify-content: center;
   }
 
+  /* Navbar */
+  .nav {
+    position: relative;
+  }
+
   .nav__logo__wrapper {
     width: 150px;
   }
 
   .nav__row {
     padding: 0 30px;
+  }
+
+  /* Header */
+
+  #header{
+    padding: 80px 0;
   }
 
   .header__img {
@@ -1075,8 +1076,10 @@ textarea::placeholder {
     width: 100%;
     gap: 30px;
     position: relative;
-    margin-top: 250px;
     align-items: center;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
   }
 
   .header__title {
@@ -1095,6 +1098,7 @@ textarea::placeholder {
     width: 80%;
   }
 
+  /* About */
   .about__container {
     padding: 80px 0;
   }
@@ -1121,16 +1125,17 @@ textarea::placeholder {
     font-size: 40px;
   }
 
-  .about__highlights{
+  .about__highlights {
     align-items: center;
   }
 
-  .about__highlight{
-  text-align: center;
+  .about__highlight {
+    text-align: center;
     font-size: 11px;
-    ;line-height: 20px;
+    line-height: 20px;
   }
 
+  /* Banner */
   .banner__container {
     padding: 50px 0;
   }
@@ -1173,6 +1178,7 @@ textarea::placeholder {
     text-align: center;
   }
 
+  /* Coverage */
   .coverage__container {
     padding: 50px 0;
   }
@@ -1192,6 +1198,7 @@ textarea::placeholder {
     gap: 12px;
   }
 
+  /* Prices */
   .price-card,
   .price-card1 {
     flex: 0 0 90%;
@@ -1212,6 +1219,7 @@ textarea::placeholder {
     font-size: 12px;
   }
 
+  /* Contact */
   .contact__top__para {
     width: 90%;
   }
