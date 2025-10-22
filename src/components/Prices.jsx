@@ -3,7 +3,7 @@ import pricesData from "../components/data/PricesData.js";
 const Prices = () => {
   return (
     <section id="prices">
-      <div className="container prices__container">
+      <div className="container">
         <div className="row prices__row">
           <div className="price-card1">
             <div className="price-card1-best">Best value</div>
@@ -12,7 +12,7 @@ const Prices = () => {
             <p className="price-card__para">
               Save time and money with our convenient block booking
             </p>
-            <a href="tel:07943227718" className="price-card__btn">
+            <a href="tel:07943227718" className="price-card__btn1">
               Get started now
             </a>
           </div>

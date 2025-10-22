@@ -1064,19 +1064,12 @@ textarea::placeholder {
 
   /* Header */
 
-  #header{
-    height: 100vh;
-    display: flex;
-    align-items: center;
+  #header {
+    padding: 50px 0;
   }
 
   .header__img {
     display: none;
-  }
-
-  .header__row{
-    display: flex;
-    align-items: center;
   }
 
   .header__contents {
@@ -1090,11 +1083,12 @@ textarea::placeholder {
   }
 
   .header__title {
-    font-size: 52px;
+    font-size: 30px;
   }
 
   .header__para {
-    font-size: 16px;
+    font-size: 14px;
+    width: 90%;
   }
 
   .header__btn,
@@ -1146,17 +1140,25 @@ textarea::placeholder {
     padding: 50px 0;
   }
 
-  .banner__content__no,
-  .banner__content__email {
-    font-size: 14px;
+  .banner__social {
+    display: none;
   }
 
+  .banner__content__no,
+  .banner__content__email,
   .banner__content__icon {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   .banner__contents {
-    gap: 14px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Benefits */
+
+  .benefits__row {
+    gap: 20px;
   }
 
   .benefits__container {
@@ -1164,7 +1166,7 @@ textarea::placeholder {
   }
 
   .benefits__title {
-    font-size: 25px;
+    font-size: 34px;
   }
 
   .benefits__title br {
@@ -1172,16 +1174,34 @@ textarea::placeholder {
   }
 
   .benefits__subheading {
-    font-size: 10px;
+    font-size: 16px;
+  }
+
+  .benefits__subheading br {
+    display: none;
+  }
+
+  .benefits__block-icon {
+    font-size: 50px;
+  }
+
+  .benefits__block-title {
+    font-size: 20px;
+    text-align: center;
   }
 
   .benefits__blocks {
     flex-direction: column;
   }
 
-  .benefits__block-title {
+  .benefits__block__para {
     font-size: 16px;
-    text-align: center;
+  }
+
+  .benefits__bottom-btn {
+    font-size: 18px;
+    border-radius: 2px;
+    width: 90%;
   }
 
   /* Coverage */
@@ -1189,19 +1209,31 @@ textarea::placeholder {
     padding: 50px 0;
   }
 
+  .coverage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .coverage__info-title {
-    font-size: 14px;
+    font-size: 24px;
     text-align: center;
   }
 
   .coverage__info-para {
-    font-size: 8px;
+    font-size: 16px;
     width: 100%;
   }
 
   .coverage__info {
-    padding: 16px 10px;
-    gap: 12px;
+    width: 100%;
+    height: 220px;
+    padding: 40px 20px;
+  }
+
+  .coverage__img-wrapper {
+    width: 100%;
+    height: 220px;
   }
 
   /* Prices */
@@ -1212,22 +1244,35 @@ textarea::placeholder {
   }
 
   .price-card__title {
-    font-size: 16px;
+    font-size: 24px;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: center;
   }
 
   .price-card__subheading {
-    font-size: 14px;
+    font-size: 20px;
+    text-align: center;
   }
 
+  .price-card__para {
+    font-size: 16px;
+  }
   .price-card__btn {
-    font-size: 12px;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
   }
 
   /* Contact */
+
+  .contact__top__title {
+    font-size: 40px;
+  }
+
   .contact__top__para {
     width: 90%;
+    font-size: 16px;
   }
 
   .input__box-field,
@@ -1271,76 +1316,18 @@ textarea::placeholder {
     width: 100% !important;
   }
 
+  .contact-top-details-title,
+  .contact-top-socials-title,
+  .contact-bottom-title {
+    font-size: 20px;
+  }
+
+  .contact-bottom-opening-time,
+  .contact-bottom-closing-time {
+    font-size: 16px;
+  }
   .footer__container {
     padding: 30px 0;
   }
 }
 
-/* Medium Mobile Screens */
-@media (max-width: 375px) {
-  .header__title {
-    font-size: 12px;
-  }
-
-  .header__para,
-  .about__para,
-  .about__highlight,
-  .benefits__block__para {
-    font-size: 8px;
-  }
-
-  .about__container {
-    padding: 50px 0;
-  }
-
-  .banner__content__icon {
-    font-size: 16px;
-  }
-
-  .banner__content__no,
-  .banner__content__email {
-    font-size: 12px;
-  }
-
-  .benefits__row {
-    gap: 30px;
-  }
-
-  .benefits__title {
-    font-size: 12px;
-  }
-
-  .benefits__subheading br {
-    display: none;
-  }
-  .price-card1-best {
-    font-size: 12px;
-  }
-
-  .price-card__title {
-    font-size: 14px;
-    margin-bottom: 5px;
-  }
-
-  .price-card__subheading {
-    font-size: 12px;
-  }
-
-  .price-card__para {
-    font-size: 12px;
-  }
-
-  .price-card__btn {
-    font-size: 10px;
-  }
-
-  .input__box-field,
-  .input__box__message {
-    width: 80%;
-    font-size: 12px;
-  }
-
-  .footer__details {
-    font-size: 10px;
-  }
-}
