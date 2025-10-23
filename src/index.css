@@ -36,6 +36,17 @@ body {
   padding: 0 28px;
 }
 
+/* Loading Spinner */
+.spinner__row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinner {
+  font-size: 35px;
+}
+
 /* Topbar */
 #topbar {
   background-color: var(--main);

@@ -1,17 +1,19 @@
-import { useEffect } from "react";
+import { lazy, Suspense, useEffect } from "react";
 import "../src/index.css";
-import About from "./components/About";
-import Banner from "./components/Banner";
-import Benefits from "./components/Benefits";
-import Contact from "./components/Contact";
-import Coverage from "./components/Coverage";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Nav from "./components/Nav";
-import Prices from "./components/Prices";
 import Topbar from "./components/Topbar";
+import Nav from "./components/Nav";
+import About from "./components/About";
+import Header from "./components/Header";
+import Banner from "./components/Banner";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Spinner from "./components/Spinner";
+
+const Benefits = lazy(() => import("./components/Benefits"));
+const Contact = lazy(() => import("./components/Contact"));
+const Coverage = lazy(() => import("./components/Coverage"));
+const Prices = lazy(() => import("./components/Prices"));
+const Footer = lazy(() => import("./components/Footer"));
 
 function App() {
   useEffect(() => {
@@ -25,11 +27,13 @@ function App() {
       <Header />
       <About />
       <Banner />
-      <Benefits />
-      <Coverage />
-      <Prices />
-      <Contact />
-      <Footer />
+      <Suspense fallback={<Spinner />}>
+        <Benefits />
+        <Coverage />
+        <Prices />
+        <Contact />
+        <Footer />
+      </Suspense>
     </>
   );
 }
