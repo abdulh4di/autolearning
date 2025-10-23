@@ -59,7 +59,8 @@ const Benefits = () => {
                   </div>
                 </div>
               </div>
-              <span className="benefits__bottom-btn__wrapper">
+              <span className="benefits__bottom-btn__wrapper"     data-aos="fade-up"
+                data-aos-duration="1800">
                 <a href="tel:07943227718" className="benefits__bottom-btn">
                   Get in touch now
                 </a>

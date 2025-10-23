@@ -28,7 +28,7 @@ const Prices = () => {
                 <h3 className="price-card__title">{price.title}</h3>
                 <h4 className="price-card__subheading">{price.price}</h4>
                 <p className="price-card__para">{price.desciption}</p>
-                <a href="tel:07943227718" className="price-card__btn">
+                <a href="tel:07943227718" className="price-card__btn" >
                   Get started now
                 </a>
               </div>
