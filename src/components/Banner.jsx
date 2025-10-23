@@ -10,7 +10,7 @@ const Banner = () => {
     <section id="banner">
       <div className="container banner__container">
         <div className="banner__row">
-          <div className="banner__contents">
+          <div className="banner__contents" data-aos="zoom-in" data-aos-duration="1600">
             <div className="banner__content">
               <FontAwesomeIcon icon={faPhone} className="banner__content__icon" />
               <a href="tel:07943227718" className="banner__content__no">

@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import "../src/index.css";
 import About from "./components/About";
 import Banner from "./components/Banner";
@@ -9,8 +10,14 @@ import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Prices from "./components/Prices";
 import Topbar from "./components/Topbar";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <>
       <Topbar />

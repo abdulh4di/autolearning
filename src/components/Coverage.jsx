@@ -7,7 +7,10 @@ const Coverage = () => {
       <div className="container coverage__container">
         <div className="row coverage__row">
           <div className="coverage">
-            <div className="coverage__info">
+            <div className="coverage__info"
+            data-aos="fade-up-right"
+            data-aos-duration="1200"
+            >
               <h2 className="coverage__info-title">Newcastle upon Tyne</h2>
               <p className="coverage__info-para">
                 Covering Newcastle and nearby areas, Auto Learn School of Motoring helps new drivers
@@ -16,7 +19,10 @@ const Coverage = () => {
                 freedom of driving.
               </p>
             </div>
-            <div className="coverage__img-wrapper">
+            <div className="coverage__img-wrapper"
+             data-aos="fade-up-left"
+            data-aos-duration="1200"
+            >
               <img src={NCL} alt="" className="coverage__img" />
             </div>
           </div>
@@ -27,3 +33,4 @@ const Coverage = () => {
 };
 
 export default Coverage;
+

@@ -5,7 +5,7 @@ const Prices = () => {
     <section id="prices">
       <div className="container">
         <div className="row prices__row">
-          <div className="price-card1">
+          <div className="price-card1" data-aos="fade-down" data-aos-duration="1600">
             <div className="price-card1-best">Best value</div>
             <h3 className="price-card__title">Block Booking</h3>
             <h4 className="price-card__subheading">Block of 10 hours: £380</h4>
@@ -19,7 +19,12 @@ const Prices = () => {
 
           {pricesData.map((price) => {
             return (
-              <div className="price-card" key={price.id}>
+              <div
+                className="price-card"
+                key={price.id}
+                data-aos="fade-down"
+                data-aos-duration="1600"
+              >
                 <h3 className="price-card__title">{price.title}</h3>
                 <h4 className="price-card__subheading">{price.price}</h4>
                 <p className="price-card__para">{price.desciption}</p>
