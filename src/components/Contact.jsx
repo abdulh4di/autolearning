@@ -47,7 +47,7 @@ const Contact = () => {
           <div className="contact__bottom">
             <div className="contact__form">
               <form onSubmit={onSubmit}>
-                  <input
+                <input
                   type="hidden"
                   name="access_key"
                   value="dd64004b-7db6-42ca-88c2-0a195b633651"
@@ -119,13 +119,13 @@ const Contact = () => {
                   <h2 className="contact-top-details-title">Contact Us</h2>
                   <div className="contact-top-detail">
                     <FontAwesomeIcon icon={faPhone} className="contact-top-detail-icon" />
-                    <a href="" className="contact-top-detail-item">
+                    <a href="tel:07943227718" className="contact-top-detail-item">
                       07943227718
                     </a>
                   </div>
                   <div className="contact-top-detail">
                     <FontAwesomeIcon icon={faEnvelope} className="contact-top-detail-icon" />
-                    <a href="" className="contact-top-detail-item">
+                    <a href="mailto:autolearnncl@gmail.com" className="contact-top-detail-item">
                       autolearnncl@gmail.com
                     </a>
                   </div>
