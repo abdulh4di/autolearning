@@ -41,18 +41,13 @@ const Contact = () => {
             <h1 className="contact__top__title" data-aos="fade-down" data-aos-duration="1200">
               Get in touch
             </h1>
-            <p className="contact__top__para"
-                 data-aos="fade-down"
-                data-aos-duration="1400">
+            <p className="contact__top__para" data-aos="fade-down" data-aos-duration="1400">
               Have a question or want to book a lesson? Contact Auto Learn School of Motoring today
               to find out more about our automatic driving lessons and availability.
             </p>
           </div>
           <div className="contact__bottom">
-            <div className="contact__form"
-                 data-aos="fade-right"
-                data-aos-duration="1600"
-            >
+            <div className="contact__form" data-aos="fade-right" data-aos-duration="1600">
               <form onSubmit={onSubmit}>
                 <input
                   type="hidden"
@@ -104,26 +99,10 @@ const Contact = () => {
                   <button className="contact-form__btn" type="submit">
                     Submit
                   </button>
-                  <ToastContainer
-                    position="top-right"
-                    autoClose={3000}
-                    hideProgressBar={false}
-                    newestOnTop={false}
-                    closeOnClick={false}
-                    rtl={false}
-                    pauseOnFocusLoss
-                    draggable
-                    pauseOnHover
-                    theme="dark"
-                    transition={Zoom}
-                  />
                 </span>
               </form>
             </div>
-            <div className="contact__info"
-            
-                 data-aos="fade-left"
-                data-aos-duration="1600">
+            <div className="contact__info" data-aos="fade-left" data-aos-duration="1600">
               <div className="contact-top">
                 <div className="contact-top-details">
                   <h2 className="contact-top-details-title">Contact Us</h2>
