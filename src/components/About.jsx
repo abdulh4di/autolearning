@@ -7,7 +7,7 @@ const About = () => {
     <section id="about">
       <div className="container about__container">
         <div className="row about__row">
-          <div className="about__left" data-aos="fade-right" data-aos-duration="1600">
+          <div className="about__left" data-aos="fade-up" data-aos-duration="1000">
             <p className="about__para">
               Auto Learn School of Motoring is run by a fully qualified{" "}
               <span className="about__para__span">Approved Driving Instructor (ADI)</span>, offering
@@ -34,7 +34,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="about__right" data-aos="fade-left" data-aos-duration="1600">
+          <div className="about__right" data-aos="fade-up" data-aos-duration="1050">
             <ul className="about__highlights">
               <li className="about__highlight">
                 ✓ <span className="about__hightlight__span">Step-by-step </span>

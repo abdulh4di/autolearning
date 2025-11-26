@@ -8,8 +8,7 @@ const Coverage = () => {
         <div className="row coverage__row">
           <div className="coverage">
             <div className="coverage__info"
-            data-aos="fade-up-right"
-            data-aos-duration="1200"
+       data-aos="fade-up" data-aos-duration="1000"
             >
               <h2 className="coverage__info-title">Newcastle upon Tyne</h2>
               <p className="coverage__info-para">
@@ -20,8 +19,7 @@ const Coverage = () => {
               </p>
             </div>
             <div className="coverage__img-wrapper"
-             data-aos="fade-up-left"
-            data-aos-duration="1200"
+         data-aos="fade-up" data-aos-duration="1050"
             >
               <img src={NCL} alt="" className="coverage__img" />
             </div>
